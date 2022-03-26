@@ -2,24 +2,38 @@
     padding: 0px;
  }
  .caja-arriba {
-     width: 98px;
+     width: 150px;
      margin: 0px;
      padding: 1px;
-     background-color: cadetblue;
+    
  }
+ body {background-color: black;}
  .caja-izquierda {
-     width: 300px;
+     width: 150px;
      position: fixed;
      height: 100%;
-     background-color: coral;
+     width: 150px;
+    
  }
- .caja-body {
+ 
+.caja-body  {
      position: relative;
-     left: 300px;
-     height: 100%;
-     width: 50%;
- }
- #caja-pie {
+     left: 150px;
+     height: 200px;
+     width: 90%;
+     
+
+
+ 
+    }
+ .caja1 {background-color: skyblue;}   
+ .caja2 {background-color: yellow;}
+ .caja3{background-color: orange;}
+ .caja4{background-color: red;}
+
+
+ 
+    #caja-pie {
      position: absolute;
      bottom: 0px;
      width: 100%;
